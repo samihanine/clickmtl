@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'CLICK MTL',
     description: 'Inspirer une vision jeune, créative et unique',
-    images: '/projects/escape/escape-7.jpg',
+    images: 'https://clickmtl.vercel.app/projects/escape/escape-7.jpg',
   },
 };
 
