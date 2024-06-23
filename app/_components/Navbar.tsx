@@ -16,13 +16,13 @@ export const Navbar = () => {
   return (
     <>
     <nav className='fixed z-[1000] flex h-[--navh] w-full items-center justify-between px-[--px] mix-blend-exclusion'>
-      <Link className='h-7' href='/'>
+      <Link href='/'>
         <Image
-          className='h-full w-full'
+          className='h-7 w-auto'
           src='/logo/lg-logo.png'
           alt=''
-          width={600}
-          height={600}
+          width={106}
+          height={28}
         />
       </Link>
       <div className='hidden md:flex items-center gap-[--gap]'>
