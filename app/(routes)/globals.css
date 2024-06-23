@@ -1,0 +1,56 @@
+@import url('../../src/fonts/clash-display.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'ClashDisplay-Variable';
+  --primary-color: #f1f0ee;
+  --navh: 10vh;
+  --gap: 2.5rem;
+  --px: 3vw;
+  scroll-behavior: smooth;
+  background-color: var(--primary-color);
+}
+
+#content {
+  scroll-margin-top: 10vh;
+}
+
+.title {
+  @apply text-[2.5rem] font-bold;
+}
+
+.subtitle {
+  @apply text-[2rem];
+}
+
+.button {
+  @apply border border-white px-[40px] py-[10px] text-white transition hover:bg-white hover:text-black;
+}
+
+.buttonFilled {
+  @apply border border-black bg-black px-[40px] py-[10px] text-[--primary-color] transition hover:bg-transparent;
+}
+
+.buttonWhite {
+  @apply border border-white bg-white px-[40px] py-[10px] text-black transition hover:bg-transparent hover:text-white;
+}
+
+.textButton {
+  @apply w-fit opacity-50 transition hover:opacity-100;
+}
+
+.contactPhoneEmail {
+  @apply w-fit opacity-50 transition hover:opacity-100;
+}
+
+@media (max-width: 768px) {
+  .buttonFilled {
+    @apply border border-black bg-black px-[40px] py-[10px] text-[--primary-color] transition hover:bg-transparent;
+  }
+  .buttonWhite {
+    @apply border border-white bg-white px-[16px] py-[8px] text-black transition hover:bg-transparent hover:text-white;
+  }
+}

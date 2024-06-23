@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-overlay {
+  @apply absolute h-full w-full bg-black;
+}
+
+.text-overlay {
+  @apply absolute h-full w-full;
+}

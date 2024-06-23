@@ -1,0 +1,31 @@
+.artistName {
+  @apply text-[96px] font-bold leading-[96px];
+}
+
+.artistCarousel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  transition: all 200ms linear;
+}
+/* 
+.carouselContainer:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, transparent, black);
+  content: "";
+  z-index: 2;
+}
+
+.carouselContainer::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, transparent, black);
+  content: "";
+  z-index: 2;
+} */
