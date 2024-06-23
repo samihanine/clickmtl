@@ -11,7 +11,7 @@ const ProjectLanding = async ({ project }: { project: Project }) => {
           <div className='flex h-full items-center justify-center'>
             <Media
               src={project.mainMediaSrc || project.projectCover}
-              className='h-[calc(100vh-192px)] w-full'
+              className='!h-[calc(100vh-192px)] w-full'
             />
           </div>
         </div>
