@@ -127,7 +127,7 @@ const projects: Project[] = [
         slug: 'matias-renaud',
       },
     ],
-    slug: 'constant-elevation',
+    slug: 'balkirat',
     medias: [
       {
         filename: 'balkirat-1',

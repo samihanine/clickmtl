@@ -88,7 +88,7 @@ const AboutPage = () => {
           </p>
           <a
             href='mailto:clickstudiomtl@gmail.com'
-            className='text-[2rem] hover:opacity-50'
+            className='text-xl md:text-[2rem] hover:opacity-50'
           >
             clickstudiomtl@gmail.com
           </a>

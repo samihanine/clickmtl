@@ -45,23 +45,23 @@ const Home = async () => {
         src={home.artistsSection.src}
         className='bg-home-four bg-cover text-white'
       >
-        <p className='title'>{home.artistsSection.text}</p>
+        <p className='title text-center'>{home.artistsSection.text}</p>
         <SectionLink href='/artists'>voir nos artistes</SectionLink>
       </HomeSection>
       <HomeSection
         src={home.projectsSection.src}
         className={`bg-cover text-white`}
       >
-        <p className='title'>{home.projectsSection.text}</p>
+        <p className='title text-center'>{home.projectsSection.text}</p>
         <SectionLink href='/projects'>Voir nos projets</SectionLink>
       </HomeSection>
-      <section className='flex h-screen items-center justify-between bg-[--primary-color] p-[--px]'>
-        <div className='flex w-1/2 flex-col gap-[--gap]'>
-          <p className='subtitle'>{home.aboutSection.text}</p>
+      <section className='flex md:h-screen items-center justify-between bg-[--primary-color] p-[--px] flex-col md:flex-row'>
+        <div className='flex mt-5 md:mt-0 md:w-1/2 md:flex-col gap-[--gap] flex-col-reverse'>
+          <p className='text-lg md:text-4xl'>{home.aboutSection.text}</p>
           <SectionLink href={'/about'}>À PROPOS</SectionLink>
         </div>
         <Image
-          className='h-full w-1/3 object-cover'
+          className='h-full mt-5 md:mt-0 pr-4 md:w-1/3 object-cover'
           src={home.aboutSection.src}
           alt='1.jpg'
           width={800}
@@ -69,15 +69,15 @@ const Home = async () => {
         />
       </section>
 
-      <section className='flex h-screen items-center justify-between gap-[--gap] bg-[--primary-color] p-[--px]'>
+      <section className='flex flex-col-reverse md:flex-row md:h-screen items-center justify-between gap-[--gap] bg-[--primary-color] p-[--px]'>
         <Image
-          className='h-full w-1/3 object-cover'
+          className='h-full mb-5 md:mb-0 pr-4 md:w-1/3 object-cover'
           src={home.contactSection.src}
           alt='1.jpg'
           width={800}
           height={800}
         />
-        <div className='flex w-1/2 flex-col gap-[--gap]'>
+        <div className='flex md:w-1/2 flex-col gap-[--gap]'>
           <p className='subtitle'>{home.contactSection.text}</p>
           <SectionLink href={'/contact'}>CONTACTEZ-NOUS</SectionLink>
         </div>

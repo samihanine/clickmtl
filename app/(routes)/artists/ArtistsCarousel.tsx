@@ -114,11 +114,11 @@ const ArtistsCarousel = ({ artists }: { artists: Artist[] }) => {
                   id={artist.slug}
                   ref={listItemRef}
                   key={key}
-                  className={`my-5 flex w-full flex-col items-center justify-center text-white ${
+                  className={`my-5 flex w-full flex-col text-center items-center justify-center text-white ${
                     !active && 'opacity-40'
                   }`}
                 >
-                  <p className='truncate text-3xl font-bold md:text-5xl lg:text-6xl'>
+                  <p className='truncate text-3xl text-center font-bold md:text-5xl lg:text-6xl'>
                     {artist.name.toUpperCase()}
                   </p>
                   {active ? (
