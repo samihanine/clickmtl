@@ -1,4 +1,5 @@
-import ProjectCover from '@/app/_components/ProjectCover';
+"use server";
+
 import ProjectMasonry from '@/app/_components/ProjectMasonry';
 import Roles from '@/app/_components/Roles';
 import { getArtist } from '@/src/models/artists';
@@ -7,26 +8,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { IoArrowDownSharp } from 'react-icons/io5';
-
-const VerticalLine = () => {
-  return (
-    <div className='mx-auto inline-block h-full w-[1px] self-stretch bg-black'></div>
-  );
-};
-
-const Point = () => {
-  return (
-    <div className='aspect-square w-[20px] rounded-full border border-black'></div>
-  );
-};
-
-const ArtistColumn = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <div className='flex h-full md:w-1/2 flex-col justify-center gap-[--gap]'>
-      {children}
-    </div>
-  );
-};
 
 const ArtistPage = async ({ params }: { params: { slug: string } }) => {
   const artist = await getArtist(params.slug);
@@ -62,7 +43,7 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
       </div>
       <div className='m-[--px] flex flex-col gap-[--gap]'>
         <div className='flex flex-col md:flex-row md:h-[80vh] gap-[--gap]'>
-          <ArtistColumn>
+          <div className='flex h-full md:w-1/2 flex-col justify-center gap-[--gap]'>
             <div className='relative flex h-full w-full'>
               {artist.portrait !== '' && (
                 <Image
@@ -82,15 +63,15 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
                 <Roles roles={["Co-Fondateur", "Photograph"]} />
               </div> */}
             </div>
-          </ArtistColumn>
-
-          <div className='md:flex flex-col items-center gap-[--gap] hidden'>
-            <Point />
-            <VerticalLine />
-            <Point />
           </div>
 
-          <ArtistColumn>
+          <div className='md:flex flex-col items-center gap-[--gap] hidden'>
+            <div className='aspect-square w-[20px] rounded-full border border-black' />
+            <div className='mx-auto inline-block h-full w-[1px] self-stretch bg-black'  />
+            <div className='aspect-square w-[20px] rounded-full border border-black' />
+          </div>
+
+          <div className='flex h-full md:w-1/2 flex-col justify-center gap-[--gap]'>
             <div className='flex flex-col'>
               <p className='title'>{artist.name}</p>
               <p className='mb-10 text-sm text-gray-700'>
@@ -102,7 +83,7 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
               MES PROJETS
               <IoArrowDownSharp />
             </Link>
-          </ArtistColumn>
+          </div>
         </div>
         <p id='content' className='title'>
           PROJETS

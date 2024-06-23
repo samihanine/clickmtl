@@ -1,5 +1,6 @@
+"use server";
+
 import ArtistsCarousel from './ArtistsCarousel';
-import Link from 'next/link';
 import React from 'react';
 import { getArtists } from '@/src/models/artists';
 

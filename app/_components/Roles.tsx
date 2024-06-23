@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 
 const Roles = ({ roles }: { roles: string[] }) => {

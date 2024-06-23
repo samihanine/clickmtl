@@ -55,9 +55,10 @@ const Home = async () => {
         <p className='title text-center'>{home.projectsSection.text}</p>
         <SectionLink href='/projects'>Voir nos projets</SectionLink>
       </HomeSection>
+
       <section className='flex md:h-screen items-center justify-between bg-[--primary-color] p-[--px] flex-col md:flex-row'>
         <div className='flex mt-5 md:mt-0 md:w-1/2 md:flex-col gap-[--gap] flex-col-reverse'>
-          <p className='text-lg md:text-4xl'>{home.aboutSection.text}</p>
+          <p className='text-lg md:text-xl'>{home.aboutSection.text}</p>
           <SectionLink href={'/about'}>À PROPOS</SectionLink>
         </div>
         <Image
@@ -68,7 +69,7 @@ const Home = async () => {
           height={800}
         />
       </section>
-
+      {/*
       <section className='flex flex-col-reverse md:flex-row md:h-screen items-center justify-between gap-[--gap] bg-[--primary-color] p-[--px]'>
         <Image
           className='h-full mb-5 md:mb-0 pr-4 md:w-1/3 object-cover'
@@ -82,6 +83,7 @@ const Home = async () => {
           <SectionLink href={'/contact'}>CONTACTEZ-NOUS</SectionLink>
         </div>
       </section>
+      */}
     </main>
   );
 };

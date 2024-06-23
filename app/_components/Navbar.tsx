@@ -16,7 +16,7 @@ export const Navbar = () => {
   return (
     <>
     <nav className='fixed z-[1000] flex h-[--navh] w-full items-center justify-between px-[--px] mix-blend-exclusion'>
-      <Link className='h-1/3' href='/'>
+      <Link className='h-7' href='/'>
         <Image
           className='h-full w-full'
           src='/logo/lg-logo.png'

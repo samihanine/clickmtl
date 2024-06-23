@@ -1,3 +1,5 @@
+"use client";
+
 import { FooterIcons, NavbarLinks } from './NavbarLinks';
 
 import Image from 'next/image';

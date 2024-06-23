@@ -11,7 +11,7 @@ const AboutPage = () => {
         <div className='my-[--gap] flex flex-col gap-[--gap]'>
           <div className='flex items-center justify-center gap-[--gap]'>
             <div className='md:w-1/2'>
-              <p className=''>
+              <p className='text-center'>
                 Click a vu le jour à partir d&apos;une passion débordante et
                 d&apos;un désir profond de création. Les cofondateurs, Matias et
                 Louis, ont d&apos;abord exploré le monde à travers
@@ -27,57 +27,33 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-          <div className='my-10 grid auto-cols-max grid-flow-col gap-[--gap] overflow-x-scroll pb-3'>
-            <div className='flex h-[60vh] w-[25vw]'>
-              <Image
-                className='h-full w-full object-cover'
-                src={'/about/about-2.jpg'}
-                alt=''
-                width={1200}
-                height={1200}
-              />
-            </div>
-            <div className='flex h-[60vh] w-[25vw]'>
-              <Image
-                className='h-full w-full object-cover'
-                src={'/about/about-3.jpg'}
-                alt=''
-                width={1200}
-                height={1200}
-              />
-            </div>
-            <div className='flex h-[60vh] w-[25vw]'>
-              <Image
-                className='h-full w-full object-cover'
-                src={'/about/about-4.jpg'}
-                alt=''
-                width={1200}
-                height={1200}
-              />
-            </div>
-            <div className='flex h-[60vh] w-[25vw]'>
-              <Image
-                className='h-full w-full object-cover'
-                src={'/about/about-5.jpg'}
-                alt=''
-                width={1200}
-                height={1200}
-              />
-            </div>
+          <div className='my-10 flex flex-col md:grid md:auto-cols-max md:grid-flow-col gap-[--gap] overflow-x-scroll pb-3'>
+
+            {Array.from({ length: 5 }).map((_, i) => (
+              <div key={i} className='flex w-full h-auto md:h-[60vh] md:w-[25vw]'>
+                <Image
+                  className='h-full w-full object-cover'
+                  src={`/about/about-${i + 1}.jpg`}
+                  alt=''
+                  width={1200}
+                  height={1200}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
 
-      <div className='mt-10 flex gap-[--gap] bg-black p-10 text-white flex-col md:flex-row'>
+      <div className='mt-10 flex gap-[--gap] bg-black p-20 text-white flex-col md:flex-row'>
         <Image
-          className='h-[50vh] w-1/2 object-cover'
+          className='w-full h-auto md:h-[50vh] md:w-1/2 object-cover'
           src={'/about/about-1.jpg'}
           alt=''
           width={1200}
           height={1200}
         />
         <div className='flex md:w-1/2 flex-col gap-[--gap]'>
-          <p className='text-4xl md:text-5xl lg:text-[4rem]'>REJOIGNEZ NOTRE ÉQUIPE!</p>
+          <p className='text-4xl md:text-5xl'>REJOIGNEZ NOTRE ÉQUIPE!</p>
 
           <p className=''>
             Si la création te passionne et que tu es à la recherche d&apos;une
@@ -88,7 +64,7 @@ const AboutPage = () => {
           </p>
           <a
             href='mailto:clickstudiomtl@gmail.com'
-            className='text-xl md:text-[2rem] hover:opacity-50'
+            className='text-xl font-medium hover:opacity-50'
           >
             clickstudiomtl@gmail.com
           </a>
