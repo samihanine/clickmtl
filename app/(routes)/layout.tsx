@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'CLICK MTL',
     description: 'Inspirer une vision jeune, créative et unique',
-    images: process.env.NEXT_PUBLIC_BASE_URL + '/projects/escape/escape-7.jpg',
+    images: '/projects/escape/escape-7.jpg',
   },
 };
 
