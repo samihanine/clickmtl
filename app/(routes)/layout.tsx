@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   icons: {
     icon: ['/favicon.ico'],
   },
+  openGraph: {
+    title: 'CLICK MTL',
+    description: 'Inspirer une vision jeune, créative et unique',
+    images: process.env.NEXT_PUBLIC_BASE_URL + '/artists/escape/escape-7.jpg',
+  },
 };
 
 export default function RootLayout({
