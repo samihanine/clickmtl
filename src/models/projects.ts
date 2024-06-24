@@ -117,8 +117,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Balkirat',
-    projectCover:
-      '/projects/balkirat/balkirat-background.jpg',
+    projectCover: '/projects/balkirat/balkirat-background.jpg',
     description:
       'Cette série de photos a été réalisée à l’occasion de la sortie de l’EP Fire In the Mind de Balkirat, un chanteur émergent de Montréal. Le concept a été développé en étroite collaboration avec la direction artistique de l’artiste. L’objectif principal était de faire ressentir au public que Balkirat a tout laissé tomber pour poursuivre son rêve de carrière musicale, quittant une vie antérieure de bureaucrate qui ne le rendait pas heureux. Le projet visait à représenter la transition de Balkirat d’un bureaucrate insatisfait à un artiste passionné, en capturant les émotions et la détermination qui accompagnent ce changement. Les visuels devaient refléter l’énergie et l’âme de son EP Fire In the Mind, créant ainsi une connexion authentique avec le public.',
     initiators: [

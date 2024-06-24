@@ -8,7 +8,7 @@ const ProjectPage = async () => {
   if (!projects) return <div>Something went wrong.</div>;
 
   return (
-    <div className='p-[--gap] pt-24 min-h-[90vh]'>
+    <div className='min-h-[90vh] p-[--gap] pt-24'>
       <ProjectMasonry projects={projects} />
     </div>
   );

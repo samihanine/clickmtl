@@ -1,4 +1,4 @@
-"use server";
+'use server';
 
 import ArtistsCarousel from './ArtistsCarousel';
 import React from 'react';

@@ -24,9 +24,9 @@ const ContactSection = ({
   contacts: { name: string; subname: string[]; email: string; phone: string }[];
 }) => {
   return (
-    <div className='flex flex-col gap-[--gap] mb-10'>
+    <div className='mb-10 flex flex-col gap-[--gap]'>
       <p className='subtitle font-bold'>{label}</p>
-      <div className='space-y-5 md:space-y-0 md:grid md:grid-cols-4 px-[--px]'>
+      <div className='space-y-5 px-[--px] md:grid md:grid-cols-4 md:space-y-0'>
         {contacts.map((contact, key) => (
           <div key={key} className='flex flex-col'>
             <div className='text-[1.5rem] font-semibold'>{contact.name}</div>
@@ -45,7 +45,7 @@ const ContactSection = ({
 
 const ContactPage = () => {
   return (
-    <div className='mx-[--px] pt-[--navh] min-h-[90vh]'>
+    <div className='mx-[--px] min-h-[90vh] pt-[--navh]'>
       <div className='my-[--px] flex flex-col gap-[--gap]'>
         <ContactSection
           label='GÉNÉRAL'

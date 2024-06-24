@@ -1,4 +1,4 @@
-"use server";
+'use server';
 
 import ProjectMasonry from '@/app/_components/ProjectMasonry';
 import Roles from '@/app/_components/Roles';
@@ -42,8 +42,8 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
         </li>
       </div>
       <div className='m-[--px] flex flex-col gap-[--gap]'>
-        <div className='flex flex-col md:flex-row md:h-[80vh] gap-[--gap]'>
-          <div className='flex h-full md:w-1/2 flex-col justify-center gap-[--gap]'>
+        <div className='flex flex-col gap-[--gap] md:h-[80vh] md:flex-row'>
+          <div className='flex h-full flex-col justify-center gap-[--gap] md:w-1/2'>
             <div className='relative flex h-full w-full'>
               {artist.portrait !== '' && (
                 <Image
@@ -65,13 +65,13 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
             </div>
           </div>
 
-          <div className='md:flex flex-col items-center gap-[--gap] hidden'>
+          <div className='hidden flex-col items-center gap-[--gap] md:flex'>
             <div className='aspect-square w-[20px] rounded-full border border-black' />
-            <div className='mx-auto inline-block h-full w-[1px] self-stretch bg-black'  />
+            <div className='mx-auto inline-block h-full w-[1px] self-stretch bg-black' />
             <div className='aspect-square w-[20px] rounded-full border border-black' />
           </div>
 
-          <div className='flex h-full md:w-1/2 flex-col justify-center gap-[--gap]'>
+          <div className='flex h-full flex-col justify-center gap-[--gap] md:w-1/2'>
             <div className='flex flex-col'>
               <p className='title'>{artist.name}</p>
               <p className='mb-10 text-sm text-gray-700'>

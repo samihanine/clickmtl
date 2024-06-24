@@ -27,10 +27,12 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-          <div className='my-10 flex flex-col md:grid md:auto-cols-max md:grid-flow-col gap-[--gap] overflow-x-scroll pb-3'>
-
+          <div className='my-10 flex flex-col gap-[--gap] overflow-x-scroll pb-3 md:grid md:auto-cols-max md:grid-flow-col'>
             {Array.from({ length: 5 }).map((_, i) => (
-              <div key={i} className='flex w-full h-auto md:h-[60vh] md:w-[25vw]'>
+              <div
+                key={i}
+                className='flex h-auto w-full md:h-[60vh] md:w-[25vw]'
+              >
                 <Image
                   className='h-full w-full object-cover'
                   src={`/about/about-${i + 1}.jpg`}
@@ -44,15 +46,15 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div className='mt-10 flex gap-[--gap] bg-black p-20 text-white flex-col md:flex-row'>
+      <div className='mt-10 flex flex-col gap-[--gap] bg-black p-20 text-white md:flex-row'>
         <Image
-          className='w-full h-auto md:h-[50vh] md:w-1/2 object-cover'
+          className='h-auto w-full object-cover md:h-[50vh] md:w-1/2'
           src={'/about/about-1.jpg'}
           alt=''
           width={1200}
           height={1200}
         />
-        <div className='flex md:w-1/2 flex-col gap-[--gap]'>
+        <div className='flex flex-col gap-[--gap] md:w-1/2'>
           <p className='text-4xl md:text-5xl'>REJOIGNEZ NOTRE ÉQUIPE!</p>
 
           <p className=''>

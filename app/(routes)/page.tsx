@@ -56,13 +56,13 @@ const Home = async () => {
         <SectionLink href='/projects'>Voir nos projets</SectionLink>
       </HomeSection>
 
-      <section className='flex md:h-screen items-center justify-between bg-[--primary-color] p-[--px] flex-col md:flex-row'>
-        <div className='flex mt-5 md:mt-0 md:w-1/2 md:flex-col gap-[--gap] flex-col-reverse'>
+      <section className='flex flex-col items-center justify-between bg-[--primary-color] p-[--px] md:h-screen md:flex-row'>
+        <div className='mt-5 flex flex-col-reverse gap-[--gap] md:mt-0 md:w-1/2 md:flex-col'>
           <p className='text-lg md:text-xl'>{home.aboutSection.text}</p>
           <SectionLink href={'/about'}>À PROPOS</SectionLink>
         </div>
         <Image
-          className='h-full mt-5 md:mt-0 pr-4 md:w-1/3 object-cover'
+          className='mt-5 h-full object-cover pr-4 md:mt-0 md:w-1/3'
           src={home.aboutSection.src}
           alt='1.jpg'
           width={800}
