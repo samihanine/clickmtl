@@ -9,7 +9,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className='flex justify-between bg-black px-10 py-[--navh]'>
-      <div className='flex flex-col items-start gap-[--gap]'>
+      <div className='flex flex-col md:items-start gap-[--gap] items-center justify-center'>
         <Link className='w-[20%]' href={'/'}>
           <Image
             className='w-full object-cover'
@@ -20,7 +20,7 @@ const Footer = () => {
           />
         </Link>
 
-        <div className='flex gap-[--gap] flex-col md:flex-row'>
+        <div className='flex gap-[--gap] flex-wrap justify-center items-center md:flex-row'>
           <NavbarLinks />
         </div>
         <div className='flex items-center gap-[--gap] text-[20px] text-white'>
