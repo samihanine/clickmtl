@@ -75,7 +75,10 @@ const HomeSection = ({
   if (extension === 'mp4' || extension === 'mov')
     return (
       <div className={`relative flex h-screen gap-[--gap]`}>
-        <video className='h-full w-full object-cover' autoPlay loop muted>
+        <video className='h-full w-full object-cover'         autoPlay 
+        loop 
+        muted 
+        playsInline>
           <source src={src} />
         </video>
         <div className='absolute flex h-full w-full flex-col items-center justify-center text-white'>

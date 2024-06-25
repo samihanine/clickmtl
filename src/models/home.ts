@@ -33,15 +33,15 @@ export const getHomeMedia = async (): Promise<HomeMedia | null> => {
         src: '/projects/escape/escape-video.mp4',
       },
       artistsSection: {
-        text: 'Réseau',
+        text: 'Nos artistes',
         src: '/home/home-artists.jpg',
       },
       aboutSection: {
         text: "Click a vu le jour à partir d'une passion débordante et d'un désir profond de création. Les cofondateurs, Matias et Louis, ont d'abord exploré le monde à travers l'objectif de la photographie. Leur esprit entrepreneurial ne tarda pas à se manifester, les conduisant à établir leur propre agence de création en 2022. Aujourd'hui, Click se distingue fièrement par son réseau d'artistes en perpétuelle innovation.",
-        src: 'https://storage.googleapis.com/clickmtl-web.appspot.com/home%2F2%2F_MG_6528.jpg', // /home/home-about.webp
+        src: "/home/home-about.png",
       },
       projectsSection: {
-        text: 'Du click à la création',
+        text: 'Du click à la création.',
         src: 'https://storage.googleapis.com/clickmtl-web.appspot.com/home%2F3%2FIMG_4223.MOV', // "/projects/escape/home-projects.mov",
       },
       contactSection: {

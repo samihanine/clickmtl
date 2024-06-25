@@ -15,7 +15,7 @@ const SectionLink = ({
   return (
     <Link
       href={href}
-      className='text-base font-medium uppercase text-gray-400 hover:text-white'
+      className='text-base font-medium uppercase text-gray-800 hover:text-gay-600 hover:underline'
     >
       {children}
     </Link>
@@ -45,8 +45,12 @@ const Home = async () => {
         src={home.artistsSection.src}
         className='bg-home-four bg-cover text-white'
       >
+        <div className='flex flex-col justify-center items-center'>
+
+    
         <p className='title text-center'>{home.artistsSection.text}</p>
         <SectionLink href='/artists'>voir nos artistes</SectionLink>
+        </div>
       </HomeSection>
       <HomeSection
         src={home.projectsSection.src}
