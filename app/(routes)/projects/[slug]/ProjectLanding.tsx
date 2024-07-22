@@ -6,8 +6,8 @@ import React from 'react';
 const ProjectLanding = async ({ project }: { project: Project }) => {
   return (
     <div className='flex flex-col-reverse pt-24 md:h-screen md:flex-col md:pt-0'>
-      <div className='flex w-full flex-col md:flex-row'>
-        <div className='md:w-2/3'>
+      <div className='flex w-full flex-grow flex-col md:flex-row'>
+        <div className='h-full md:w-2/3'>
           <div className='flex h-full items-center justify-center'>
             <Media
               src={project.mainMediaSrc || project.projectCover}
