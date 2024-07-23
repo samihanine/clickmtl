@@ -82,7 +82,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Livart Aube',
-    projectCover: '/projects/livart-aube/livart-aube-background.gif',
+    projectCover: '/projects/livart-aube/livart-aube-background.webp',
     description:
       'Au printemps 2024, nous avons eu le plaisir immense de collaborer avec Moog Audio et le Livart à Montréal pour l’ouverture de leur nouvelle salle d’événements. La particularité de ce projet réside dans la rareté du système audio installé par l’équipe de Moog Audio Pro. Ils ont installé un système audio Void, l’un des rares au monde et le premier au Canada! Notre mission consistait à capturer le lancement de la salle et à en faire une vidéo récapitulative. Nous sommes très fiers du résultat, car ce projet nous a permis de réunir deux de nos passions : la musique et la vidéo.',
     initiators: [
@@ -104,7 +104,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Moog Audio',
-    projectCover: '/projects/moog-audio/moog-audio-background.gif',
+    projectCover: '/projects/moog-audio/moog-audio-background.webp',
     description:
       'Au printemps 2024, nous avons eu le plaisir immense de collaborer avec Moog Audio et le Livart à Montréal pour l’ouverture de leur nouvelle salle d’événements. La particularité de ce projet réside dans la rareté du système audio installé par l’équipe de Moog Audio Pro. Ils ont installé un système audio Void, l’un des rares au monde et le premier au Canada! Notre mission consistait à capturer le lancement de la salle et à en faire une vidéo récapitulative. Nous sommes très fiers du résultat, car ce projet nous a permis de réunir deux de nos passions : la musique et la vidéo.',
     initiators: [
@@ -162,7 +162,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Yves Tremblay',
-    projectCover: '/projects/yves-tremblay/yves-tremblay-background.gif',
+    projectCover: '/projects/yves-tremblay/yves-tremblay-background.webp',
     videoLink: 'https://www.youtube.com/watch?v=eQaTVnSRNpI',
     description:
       'Nous avons eu le plaisir immense de travailler avec Yves Tremblay , photographe talentueux et fondateur de Photo Hélico. Notre mission était de capturer la magie de son unique métier à travers notre objectif. Monter dans l’hélicoptère avec lui pour le filmer en pleine action au-dessus de notre belle ville de Montréal a été une expérience inoubliable. Voir Yves à l’œuvre, avec une vue imprenable sur Mtl, nous a permis de documenter son art avec une perspective nouvelle et excitante. Merci à Yves Tremblay pour cette opportunité extraordinaire et à Camille Renaud, d’avoir dirigé le projet. Nous sommes impatients de partager plus de moments inspirants et de continuer à documenter son magnifique travail.',
@@ -236,8 +236,8 @@ const projects: Project[] = [
   },
   {
     type: 'image',
-    title: 'Petroliers',
-    projectCover: '',
+    title: 'Pétroliers',
+    projectCover: '/projects/petroliers/petroliers-background.webp',
     description:
       'Nous avons eu le privilège incroyable de shooter Les Pétroliers de Laval pour la saison 2023-2024! Dès le début de la saison, ils nous ont approchés avec une vision claire: se démarquer des autres équipes de la LNAH Québec. Grâce à une collaboration exceptionnelle, 58 vidéos et 1.8M de vues plus tard, nous sommes fiers de dire qu’ils ont brillamment réussi. Un immense merci à tous ceux qui ont contribué à rendre cette saison riche en création et en émotions. Nous avons hâte de poursuivre cette aventure l’année prochaine et de continuer à repousser les limites de la créativité ensemble. À la saison prochaine!',
     initiators: [
@@ -269,7 +269,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Spicebros',
-    projectCover: '/projects/spicebros/spicebros-background.gif',
+    projectCover: '/projects/spicebros/spicebros-background.webp',
     description:
       "Depuis 2022, nous avons pris en charge l'intégralité du contenu de Spicebros Montréal, une chaîne de fast food indienne. Nous avons créé des vidéos promotionnelles divertissantes, orchestré des campagnes d'ouverture de magasin, couvert des festivals et lancé de nouveaux menus. Nous sommes fiers d'avoir établi un partenariat durable au fil du temps et d'être devenus l'équipe de création attitrée de cette franchise montréalaise.",
     initiators: [
@@ -327,7 +327,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Garage Freno',
-    projectCover: '/projects/garage-freno/garage-freno-background.gif',
+    projectCover: '/projects/garage-freno/garage-freno-background.webp',
     description:
       "En 2023, l’agence média Nxstar nous a lancé un beau défi: photographier la beauté d’un garage. Bien qu'un garage soit souvent en désordre et recouvert de saleté, nous avons réussi à trouver la beauté dans l'authenticité du métier. En montrant la réalité du travail, nous sommes parvenus à le révéler dans son état le plus naturel. Pour les nombreuses séances photos passées au garage, nous ne nous sommes pas armés du plus gros matériel. Au contraire, nous sommes revenus aux fondamentaux de la photographie, nous promenant discrètement dans les allées avec notre appareil à la main pour capturer des moments spontanés, sans aucune mise en scène.",
     initiators: [
@@ -443,7 +443,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'SRA HEC',
-    projectCover: '',
+    projectCover: '/projects/sra-hec/sra-hec-background.webp',
     description:
       "Chez Click, nous adorons relever des défis créatifs, et ce projet ne fait pas exception. La collaboration avec la société des relations d’affaires du HEC nous a permis de démontrer notre capacité à créer des contenus visuels percutants et de qualité. Nous sommes particulièrement fiers de notre approche innovante et de notre capacité à capter l'essence même des projets que nous couvrons chez la SRA. Nous sommes heureux d'annoncer que cette collaboration avec la SRA se poursuivra au fil du temps. Nous continuerons à les accompagner dans la mise en valeur de leurs divers projets, en offrant des solutions créatives personnalisées qui reflètent leur dynamisme et leur engagement.",
     initiators: [
@@ -485,7 +485,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Duc de Lorraine',
-    projectCover: '',
+    projectCover: '/projects/duc-de-lorraine/duc-de-lorraine-background.webp',
     description:
       'Durant trois ans, Click a été le partenaire de création du Duc de Lorraine, la plus ancienne pâtisserie française à Montréal. Nous avons réalisé l’intégralité de leur contenu, comprenant la photographie des menus, les campagnes de célébration, la couverture d’événements, les vidéos promotionnelles, et plus encore.',
     initiators: [
@@ -494,8 +494,45 @@ const projects: Project[] = [
         slug: 'louis-gregoire',
       },
     ],
-    slug: 'enclosed',
-    medias: [],
+    slug: 'duc-de-lorraine',
+    medias: [
+      {
+        filename: 'duc-de-lorraine-1',
+        src: 'https://drive.google.com/file/d/1cy4vOz5XS0VUZrHQYwR7xIRY0sZ1nnZz/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-2',
+        src: 'https://drive.google.com/file/d/1doHLug34J2iVvTpImc1CTvF3iQUcmmAw/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-3',
+        src: 'https://drive.google.com/file/d/19iClrqGaQ-QPdmdp0vGf81dB9utYgmOn/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-4',
+        src: 'https://drive.google.com/file/d/1RoOkwieyhyaWxC25NjcTOHfbNlZSN4Bi/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-5',
+        src: 'https://drive.google.com/file/d/1lJbWiqAtHMyS3-aX7H-hc9PQIsjQ3ygb/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-6',
+        src: 'https://drive.google.com/file/d/1YTXZmrG5hvSN3XI33NpW-8uxH6a4bDFh/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-7',
+        src: 'https://drive.google.com/file/d/1BlWOmul17wl0BYR5BnYueGqirnZI4Ywe/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-8',
+        src: 'https://drive.google.com/file/d/1m_V_q8czXe1IhfdmNZ_4zZD0em0v0ixS/preview',
+      },
+      {
+        filename: 'duc-de-lorraine-9',
+        src: 'https://drive.google.com/file/d/1NovZ4zIBfonoE8x8lrarKkv4dF8JIaCK/preview',
+      },
+    ],
   },
   /*{
     type: 'image',

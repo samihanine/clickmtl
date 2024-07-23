@@ -38,7 +38,7 @@ export const getHomeMedia = async (): Promise<HomeMedia | null> => {
       },
       aboutSection: {
         text: "Click a vu le jour à partir d'une passion débordante et d'un désir profond de création. Les cofondateurs, Matias et Louis, ont d'abord exploré le monde à travers l'objectif de la photographie. Leur esprit entrepreneurial ne tarda pas à se manifester, les conduisant à établir leur propre agence de création en 2022. Aujourd'hui, Click se distingue fièrement par son réseau d'artistes en perpétuelle innovation.",
-        src: "/home/home-about.png",
+        src: '/home/home-about.png',
       },
       projectsSection: {
         text: 'Du click à la création.',
