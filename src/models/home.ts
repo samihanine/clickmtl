@@ -42,7 +42,7 @@ export const getHomeMedia = async (): Promise<HomeMedia | null> => {
       },
       projectsSection: {
         text: 'Du click à la création.',
-        src: 'https://storage.googleapis.com/clickmtl-web.appspot.com/home%2F3%2FIMG_4223.MOV', // "/projects/escape/home-projects.mov",
+        src: '/projects/livart-aube/livart-aube-background.gif',
       },
       contactSection: {
         text: 'LE MASK CACHE CEUX QUI ONT PEUR',
