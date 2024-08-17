@@ -82,7 +82,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Livart Aube',
-    projectCover: '/projects/livart-aube/livart-aube-background.webp',
+    projectCover: '/projects/livart-aube/livart-aube-5.jpg',
     description:
       'Au printemps 2024, nous avons eu le plaisir immense de collaborer avec Moog Audio et le Livart à Montréal pour l’ouverture de leur nouvelle salle d’événements. La particularité de ce projet réside dans la rareté du système audio installé par l’équipe de Moog Audio Pro. Ils ont installé un système audio Void, l’un des rares au monde et le premier au Canada! Notre mission consistait à capturer le lancement de la salle et à en faire une vidéo récapitulative. Nous sommes très fiers du résultat, car ce projet nous a permis de réunir deux de nos passions : la musique et la vidéo.',
     initiators: [
@@ -242,8 +242,16 @@ const projects: Project[] = [
       'Nous avons eu le privilège incroyable de shooter Les Pétroliers de Laval pour la saison 2023-2024! Dès le début de la saison, ils nous ont approchés avec une vision claire: se démarquer des autres équipes de la LNAH Québec. Grâce à une collaboration exceptionnelle, 58 vidéos et 1.8M de vues plus tard, nous sommes fiers de dire qu’ils ont brillamment réussi. Un immense merci à tous ceux qui ont contribué à rendre cette saison riche en création et en émotions. Nous avons hâte de poursuivre cette aventure l’année prochaine et de continuer à repousser les limites de la créativité ensemble. À la saison prochaine!',
     initiators: [
       {
-        name: 'Matias Renaud',
-        slug: 'matias-renaud',
+        name: 'Louis Gregoire',
+        slug: 'louis-gregoire',
+      },
+      {
+        name: 'Florian',
+        slug: 'florian',
+      },
+      {
+        name: 'Khoa',
+        slug: 'khoa',
       },
     ],
     slug: 'petroliers',
@@ -274,8 +282,8 @@ const projects: Project[] = [
       "Depuis 2022, nous avons pris en charge l'intégralité du contenu de Spicebros Montréal, une chaîne de fast food indienne. Nous avons créé des vidéos promotionnelles divertissantes, orchestré des campagnes d'ouverture de magasin, couvert des festivals et lancé de nouveaux menus. Nous sommes fiers d'avoir établi un partenariat durable au fil du temps et d'être devenus l'équipe de création attitrée de cette franchise montréalaise.",
     initiators: [
       {
-        name: 'Matias Renaud',
-        slug: 'matias-renaud',
+        name: 'Louis Gregoire',
+        slug: 'louis-gregoire',
       },
       {
         name: 'Édouard',
@@ -374,10 +382,6 @@ const projects: Project[] = [
       {
         name: 'Louis Gregoire',
         slug: 'louis-gregoire',
-      },
-      {
-        name: 'Cameradan',
-        slug: 'cameradan',
       },
     ],
     slug: 'evirum',

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Roles = ({ roles }: { roles: string[] }) => {
   return (
-    <div className='italic'>
+    <div className=''>
       {roles.map((role, key) => {
         if (key === roles.length - 1) {
           return <span key={key}> {role}</span>;

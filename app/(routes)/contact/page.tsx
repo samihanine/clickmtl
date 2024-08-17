@@ -52,8 +52,8 @@ const ContactPage = () => {
           contacts={[
             {
               name: 'Reception',
-              subname: ['Studio'],
-              email: 'clickstudiomtl@gmail.com',
+              subname: [''],
+              email: 'create@clickmtl.com',
               phone: '',
             },
           ]}

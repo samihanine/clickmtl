@@ -1,10 +1,9 @@
-"use client";
+'use client';
 
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 
 const AboutPage = () => {
-
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -53,22 +52,20 @@ const AboutPage = () => {
             </div>
           </div>
           <div
-      ref={containerRef}
-      className='my-10 flex gap-[--gap] overflow-x-hidden pb-3 md:grid md:auto-cols-max md:grid-flow-col'
-    >
-      {Array.from({ length: 5 }).map((_, i) => (
-
-          <Image
-              key={i}
-            className='h-auto w-[80vh] md:h-[60vh] md:w-[25vw] object-cover'
-            src={`/about/about-${i + 1}.jpg`}
-            alt=''
-            width={1200}
-            height={1200}
-          />
-
-      ))}
-    </div>
+            ref={containerRef}
+            className='my-10 flex gap-[--gap] overflow-x-hidden pb-3 md:grid md:auto-cols-max md:grid-flow-col'
+          >
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Image
+                key={i}
+                className='h-auto w-[80vh] object-cover md:h-[60vh] md:w-[25vw]'
+                src={`/about/about-${i + 1}.jpg`}
+                alt=''
+                width={1200}
+                height={1200}
+              />
+            ))}
+          </div>
         </div>
       </div>
 
@@ -91,10 +88,10 @@ const AboutPage = () => {
             de la création.
           </p>
           <a
-            href='mailto:clickstudiomtl@gmail.com'
+            href='mailto:create@clickmtl.com'
             className='text-xl font-medium hover:opacity-50'
           >
-            clickstudiomtl@gmail.com
+            create@clickmtl.com
           </a>
         </div>
       </div>

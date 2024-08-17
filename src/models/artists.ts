@@ -72,7 +72,7 @@ const artists: Artist[] = [
     name: 'Khoa',
     bio: '',
     email: '',
-    portrait: '/artists/khoa.jpg',
+    portrait: '',
     bgCover:
       'https://storage.googleapis.com/matrnaud.appspot.com/0c490096-d772-41e8-b719-7a70313c7083',
     roles: ['Réalisateur', 'Vidéaste'],
@@ -85,7 +85,7 @@ const artists: Artist[] = [
     name: 'Hugo Cardinal',
     bio: '',
     email: '',
-    portrait: '/artists/hugo-cardinal.jpg',
+    portrait: '',
     bgCover:
       'https://storage.googleapis.com/matrnaud.appspot.com/0c490096-d772-41e8-b719-7a70313c7083',
     roles: ['Photographe'],
@@ -98,7 +98,7 @@ const artists: Artist[] = [
     name: 'Édouard',
     bio: "Édouard Lamarre est un adepte de la vidéo, travaillant dans la conception, la réalisation et le montage de contenu. En se concentrant sur plusieurs formats et médias, il souhaite partager l'actualité avec un grand public, selon son propre style.",
     email: '',
-    portrait: '/artists/edouard.jpg',
+    portrait: '',
     bgCover:
       'https://storage.googleapis.com/matrnaud.appspot.com/0c490096-d772-41e8-b719-7a70313c7083',
     roles: ['Réalisateur', 'Vidéaste'],
@@ -108,17 +108,17 @@ const artists: Artist[] = [
     slug: 'edouard',
   },
   {
-    name: 'Cameradan',
+    name: 'Florian',
     bio: '',
     email: '',
-    portrait: '/artists/cameradan.jpg',
+    portrait: '/artists/florian.jpg',
     bgCover:
       'https://storage.googleapis.com/matrnaud.appspot.com/0c490096-d772-41e8-b719-7a70313c7083',
-    roles: ['Photographe', 'Vidéaste'],
+    roles: ['Photographe'],
     projects: [
       'https://storage.googleapis.com/matrnaud.appspot.com/0c490096-d772-41e8-b719-7a70313c7083',
     ],
-    slug: 'cameradan',
+    slug: 'florian',
   },
 ];
 

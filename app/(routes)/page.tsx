@@ -15,7 +15,7 @@ const SectionLink = ({
   return (
     <Link
       href={href}
-      className='text-base font-medium uppercase text-gray-800 hover:text-gay-600 hover:underline'
+      className='text-base font-medium uppercase text-gray-500 hover:text-gray-900'
     >
       {children}
     </Link>
@@ -45,12 +45,10 @@ const Home = async () => {
         src={home.artistsSection.src}
         className='bg-home-four bg-cover text-white'
       >
-        <div className='flex flex-col justify-center items-center'>
-
-    
-        <p className='title text-center'>{home.artistsSection.text}</p>
+        <p className='title text-center uppercase'>
+          {home.artistsSection.text}
+        </p>
         <SectionLink href='/artists'>voir nos artistes</SectionLink>
-        </div>
       </HomeSection>
       <HomeSection
         src={home.projectsSection.src}
@@ -62,7 +60,9 @@ const Home = async () => {
 
       <section className='flex flex-col items-center justify-between bg-[--primary-color] p-[--px] md:h-screen md:flex-row'>
         <div className='mt-5 flex flex-col-reverse gap-[--gap] md:mt-0 md:w-1/2 md:flex-col'>
-          <p className='text-lg md:text-xl'>{home.aboutSection.text}</p>
+          <p className='text-lg uppercase md:text-xl'>
+            {home.aboutSection.text}
+          </p>
           <SectionLink href={'/about'}>À PROPOS</SectionLink>
         </div>
         <Image

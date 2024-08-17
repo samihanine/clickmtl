@@ -45,7 +45,7 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
         <div className='flex flex-col gap-[--gap] md:h-[80vh] md:flex-row'>
           <div className='flex h-full flex-col justify-center gap-[--gap] md:w-1/2'>
             <div className='relative flex h-full w-full'>
-              {artist.portrait !== '' && (
+              {artist.portrait?.length ? (
                 <Image
                   className='h-full w-full object-cover'
                   src={artist.portrait}
@@ -53,6 +53,8 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
                   width={1000}
                   height={1000}
                 />
+              ) : (
+                <div className='h-full w-full bg-black' />
               )}
               {/* <div className="shadow-overlay opacity-10" />
               <div className="text-overlay p-[--px] text-white">
