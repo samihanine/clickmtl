@@ -54,7 +54,9 @@ const Home = async () => {
         src={home.projectsSection.src}
         className={`bg-cover text-white`}
       >
-        <p className='title text-center'>{home.projectsSection.text}</p>
+        <p className='title text-center uppercase'>
+          {home.projectsSection.text}
+        </p>
         <SectionLink href='/projects'>Voir nos projets</SectionLink>
       </HomeSection>
 
