@@ -51,7 +51,7 @@ const ContactPage = () => {
           label='GÉNÉRAL'
           contacts={[
             {
-              name: 'Reception',
+              name: 'Réception',
               subname: [''],
               email: 'create@clickmtl.com',
               phone: '',

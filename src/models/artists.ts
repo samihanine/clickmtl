@@ -20,9 +20,8 @@ const artists: Artist[] = [
     bio: "À l'âge de 12 ans, Matias découvre l'univers captivant de la photographie, où l'interaction entre l'humain et son environnement est sublimée. Son désir inné de création et de connexion humaine l'a naturellement conduit à se concentrer sur des projets de portraits, où il cherche à révéler l'essence même de ses sujets à travers son objectif. Parallèlement, sa passion pour le cinéma, la direction de la photographie et l'aspect artistique lui permet d'explorer de nouvelles avenues créatives et d'enrichir son expression artistique.",
     email: 'matias@clickmtl.com',
     portrait: '/artists/matias-renaud.jpg',
-    bgCover: '',
+    bgCover: '/artists/matias-renaud-cover.jpg',
     roles: ['Co-Fondateur', 'Photographe', ' Directeur photo'],
-
     slug: 'matias-renaud',
   },
   {
@@ -30,9 +29,8 @@ const artists: Artist[] = [
     bio: "Entrepreneur depuis l'âge du berceau, je suis actuellement en deuxième année d'université au HEC. Ma trajectoire m'a amené à évoluer en tant que gestionnaire par nécessité, puis par passion. En tant que vidéaste, je dirige l’équipe de click, avec une forte orientation vers la création artistique. Mon parcours m'a permis d'acquérir une expertise significative en gestion, organisation et prise de décisions stratégiques. Je suis résolu à relever de nouveaux défis avec une approche axée sur la créativité et l'innovation, et je suis enthousiaste à l'idée de partager cette passion avec mes collaborateurs!",
     email: 'louis@clickmtl.com',
     portrait: '/artists/louis-gregoire.jpg',
-    bgCover: '',
+    bgCover: '/artists/louis-gregoire-cover.jpg',
     roles: ['Co-Fondateur', 'Vidéaste'],
-
     slug: 'louis-gregoire',
   },
   {
@@ -51,7 +49,6 @@ const artists: Artist[] = [
     portrait: '/artists/lucas-mace.jpg',
     bgCover: '/artists/lucas-mace-cover.jpg',
     roles: ['Photographe', 'Vidéaste'],
-
     slug: 'lucas-mace',
   },
   {
@@ -61,7 +58,6 @@ const artists: Artist[] = [
     portrait: '',
     bgCover: '',
     roles: ['Réalisateur', 'Vidéaste'],
-
     slug: 'khoa',
   },
   {
