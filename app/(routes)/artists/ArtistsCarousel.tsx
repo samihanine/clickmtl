@@ -81,7 +81,7 @@ const ArtistsCarousel = ({ artists }: { artists: Artist[] }) => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        {selectedArtist.bgCover !== '' && (
+        {selectedArtist.bgCover?.length ? (
           <Image
             className='h-full w-full object-cover opacity-70'
             src={selectedArtist.bgCover}
@@ -89,6 +89,8 @@ const ArtistsCarousel = ({ artists }: { artists: Artist[] }) => {
             width={800}
             height={800}
           />
+        ) : (
+          <div className='h-full w-full bg-black' />
         )}
       </motion.div>
       <div className='z-[10] mt-[10vh] flex h-[80vh] w-full items-center justify-center gap-[--gap] overflow-hidden px-[--gap]'>

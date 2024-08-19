@@ -293,6 +293,10 @@ const projects: Project[] = [
         name: 'Khoa',
         slug: 'khoa',
       },
+      {
+        name: 'Daniel',
+        slug: '',
+      },
     ],
     slug: 'spicebros',
     medias: [

@@ -22,7 +22,7 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
     <div className=''>
       <div className='relative flex h-screen items-center justify-center bg-black'>
         <div className='absolute h-full w-full'>
-          {artist.bgCover !== '' && (
+          {!!artist.bgCover?.length ? (
             <Image
               className='h-full w-full object-cover opacity-70'
               src={artist.bgCover}
@@ -30,6 +30,8 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
               width={800}
               height={800}
             />
+          ) : (
+            <div className='h-full w-full bg-black' />
           )}
         </div>
         <li
@@ -56,14 +58,6 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
               ) : (
                 <div className='h-full w-full bg-black' />
               )}
-              {/* <div className="shadow-overlay opacity-10" />
-              <div className="text-overlay p-[--px] text-white">
-                <div className="artistName">
-                  <h1 className="">{firstname.toUpperCase()}</h1>
-                  <h1 className="">{lastname.toUpperCase()}</h1>
-                </div>
-                <Roles roles={["Co-Fondateur", "Photograph"]} />
-              </div> */}
             </div>
           </div>
 
