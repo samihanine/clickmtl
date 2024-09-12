@@ -81,10 +81,10 @@ const projects: Project[] = [
   },
   {
     type: 'image',
-    title: 'Livart Aube',
+    title: 'Livart',
     projectCover: '/projects/livart-aube/livart-aube-5.jpg',
     description:
-      'Au printemps 2024, nous avons eu le plaisir immense de collaborer avec Moog Audio et le Livart à Montréal pour l’ouverture de leur nouvelle salle d’événements. La particularité de ce projet réside dans la rareté du système audio installé par l’équipe de Moog Audio Pro. Ils ont installé un système audio Void, l’un des rares au monde et le premier au Canada! Notre mission consistait à capturer le lancement de la salle et à en faire une vidéo récapitulative. Nous sommes très fiers du résultat, car ce projet nous a permis de réunir deux de nos passions : la musique et la vidéo.',
+      'Au printemps 2024, nous avons eu le plaisir immense de collaborer avec Moog Audio et le Livart à Montréal pour l’ouverture de leur nouvelle salle d’événements. La particularité de ce projet réside dans la rareté du système audio installé par l’équipe de Moog Audio Pro. Ils ont installé un système audio Void, l’un des rares au monde et le premier au Canada! Notre mission consistait à capturer le lancement de la salle et à en faire une vidéo récapitulative. Nous sommes très fiers du résultat, car ce projet nous a permis de réunir deux de nos passions : la musique et la vidéo. <a class="font-bold" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/18hun5ddVUfwvrqmoLipVdnFTtPn0_68T/preview">Voir la video</a>',
     initiators: [
       {
         name: 'Matias Renaud',
@@ -191,7 +191,8 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'ACDF Architecture',
-    projectCover: '',
+    projectCover:
+      '/projects/acdf-architecture/acdf-architecture-background.jpg',
     description:
       "En 2023, nous avons eu l'honneur d'être approchés par ACDF, une prestigieuse firme d’architecture Montréalaise, pour documenter l'ensemble de leurs projets architecturaux. Jusqu'à récemment, ACDF se débrouillaient avec les moyens du bord, sans stratégie claire, ce qui se traduisait par des résultats insatisfaisants. En découvrant notre solution, ils ont été séduits par notre capacité à interpréter fidèlement leur vision à travers notre processus créatif. Nous sommes ravis de cette collaboration et impatients de donner vie à d’autres  projets.",
     initiators: [
@@ -375,7 +376,7 @@ const projects: Project[] = [
   {
     type: 'image',
     title: 'Evirum',
-    projectCover: '/projects/evirum/evirum-2.jpg',
+    projectCover: '/projects/evirum/evirum-background.jpg',
     description:
       "C’est avec un immense plaisir que nous avons suivi les voitures d’Evirum tout au long de la saison 2023 des NASCAR Pinty's. En tant que passionnés d’automobile et de ce sport unique, nous avons pris un réel plaisir à documenter les performances des coureurs d’Evirum, tant en photographie qu’en vidéographie.",
     initiators: [

@@ -26,15 +26,25 @@ const ProjectPage = async (params: {
 
       <div className='mt-10 flex justify-center gap-[--gap] font-medium'>
         <Link href={`/projects?page=${prev}`}>
-          <p className={'text-xl ' + (page === prev ? 'opacity-30' : '')}>
+          <p
+            className={
+              'text-base hover:underline sm:text-xl ' +
+              (page === prev ? 'opacity-30' : '')
+            }
+          >
             Pr&eacute;c&eacute;dent
           </p>
         </Link>
 
-        <p className='text-xl'>Page {page}</p>
+        <p className='text-base sm:text-lg'>Page {page}</p>
 
         <Link href={`/projects?page=${next}`}>
-          <p className={'text-xl ' + (page === next ? 'opacity-30' : '')}>
+          <p
+            className={
+              'text-base hover:underline sm:text-xl ' +
+              (page === next ? 'opacity-30' : '')
+            }
+          >
             Suivant
           </p>
         </Link>

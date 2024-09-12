@@ -46,27 +46,14 @@ const HomeSection = ({
     if (extension === 'mp4' || extension === 'mov') return;
 
     divRef.current.style.backgroundImage = `url('${src}')`;
+    divRef.current.style.backgroundPosition = 'center';
   }, []);
-
-  useMotionValueEvent(scrollY, 'change', () => {
-    if (!divRef.current) return;
-    if (height === undefined) return;
-    const { top, bottom } = divRef.current.getBoundingClientRect();
-
-    if (
-      (top > 0 && top < height) ||
-      (bottom > 0 && bottom < height) ||
-      (top < 0 && bottom > height)
-    ) {
-      divRef.current.style.backgroundPositionY = `${(top / height) * 100}%`;
-    }
-  });
 
   if (src === '')
     return (
       <div
         ref={divRef}
-        className={`bg-home-four flex h-screen flex-col items-center justify-center gap-[--gap] bg-cover p-[--px] text-white`}
+        className={`bg-home-four flex h-screen flex-col items-center justify-center gap-[--gap] bg-cover bg-center p-[--px] text-white`}
       >
         {children}
       </div>
@@ -75,10 +62,13 @@ const HomeSection = ({
   if (extension === 'mp4' || extension === 'mov')
     return (
       <div className={`relative flex h-screen gap-[--gap]`}>
-        <video className='h-full w-full object-cover'         autoPlay 
-        loop 
-        muted 
-        playsInline>
+        <video
+          className='h-full w-full object-cover'
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
           <source src={src} />
         </video>
         <div className='absolute flex h-full w-full flex-col items-center justify-center text-white'>

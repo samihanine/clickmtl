@@ -7,6 +7,7 @@ import { getProjectsByArtist } from '@/src/models/projects';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { FaGlobe, FaInstagram } from 'react-icons/fa';
 import { IoArrowDownSharp } from 'react-icons/io5';
 
 const ArtistPage = async ({ params }: { params: { slug: string } }) => {
@@ -69,12 +70,29 @@ const ArtistPage = async ({ params }: { params: { slug: string } }) => {
 
           <div className='flex h-full flex-col justify-center gap-[--gap] md:w-1/2'>
             <div className='flex flex-col'>
-              <p className='title'>{artist.name}</p>
-              <p className='mb-10 text-sm text-gray-700'>
-                {artist.roles.join(', ')}
-              </p>
-              <p>{artist.bio}</p>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <p className='title'>{artist.name}</p>
+                  <p className='text-sm text-gray-700'>
+                    {artist.roles.join(', ')}
+                  </p>
+                </div>
+                <div className='flex gap-[--gap]'>
+                  {artist.websiteUrl && (
+                    <Link href={artist.websiteUrl} className='textButton'>
+                      <FaGlobe className='textButton text-4xl hover:text-black' />
+                    </Link>
+                  )}
+                  {artist.instagramUrl && (
+                    <Link href={artist.instagramUrl} className='textButton'>
+                      <FaInstagram className='textButton text-4xl hover:text-black' />
+                    </Link>
+                  )}
+                </div>
+              </div>
+              <p className='mt-10'>{artist.bio}</p>
             </div>
+
             <Link href='#content' className='textButton flex items-center'>
               MES PROJETS
               <IoArrowDownSharp />

@@ -10,6 +10,8 @@ const artistSchema = z.object({
   bgCover: z.string(),
   roles: z.array(z.string()),
   slug: z.string(),
+  instagramUrl: z.string().optional(),
+  websiteUrl: z.string().optional(),
 });
 
 export type Artist = z.infer<typeof artistSchema>;
@@ -23,6 +25,7 @@ const artists: Artist[] = [
     bgCover: '/artists/matias-renaud-cover.jpg',
     roles: ['Co-Fondateur', 'Photographe', ' Directeur photo'],
     slug: 'matias-renaud',
+    instagramUrl: 'https://www.instagram.com/matrnaud/',
   },
   {
     name: 'Louis Gregoire',
@@ -32,6 +35,7 @@ const artists: Artist[] = [
     bgCover: '/artists/louis-gregoire-cover.jpg',
     roles: ['Co-Fondateur', 'Vidéaste'],
     slug: 'louis-gregoire',
+    instagramUrl: 'https://www.instagram.com/louis.gregoire',
   },
   {
     name: 'Nicola Bevacqua',
@@ -55,7 +59,7 @@ const artists: Artist[] = [
     name: 'Khoa',
     bio: '',
     email: '',
-    portrait: '',
+    portrait: '/artists/khoa.jpg',
     bgCover: '',
     roles: ['Réalisateur', 'Vidéaste'],
     slug: 'khoa',
@@ -73,8 +77,8 @@ const artists: Artist[] = [
     name: 'Édouard',
     bio: "Édouard Lamarre est un adepte de la vidéo, travaillant dans la conception, la réalisation et le montage de contenu. En se concentrant sur plusieurs formats et médias, il souhaite partager l'actualité avec un grand public, selon son propre style.",
     email: '',
-    portrait: '',
-    bgCover: '',
+    portrait: '/artists/edouard.jpg',
+    bgCover: '/artists/edouard-cover.jpg',
     roles: ['Réalisateur', 'Vidéaste'],
     slug: 'edouard',
   },

@@ -20,7 +20,7 @@ const ProjectLanding = async ({ project }: { project: Project }) => {
           <div className='flex h-full flex-col justify-between'>
             <section className='h-full w-full border-black p-[--px]'>
               <div className='flex h-full items-end opacity-50'>
-                <p>{project.description}</p>
+                <p dangerouslySetInnerHTML={{ __html: project.description }} />
               </div>
             </section>
           </div>

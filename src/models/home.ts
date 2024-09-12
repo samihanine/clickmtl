@@ -30,7 +30,7 @@ export const getHomeMedia = async (): Promise<HomeMedia | null> => {
   try {
     return {
       heroSection: {
-        src: '/projects/escape/escape-video.mp4',
+        src: 'home/home-hero.mov',
       },
       artistsSection: {
         text: 'Nos artistes',
@@ -42,7 +42,7 @@ export const getHomeMedia = async (): Promise<HomeMedia | null> => {
       },
       projectsSection: {
         text: 'Du click à la création.',
-        src: '/projects/livart-aube/livart-aube-background.gif',
+        src: '/home/home-project.gif',
       },
       contactSection: {
         text: 'LE MASK CACHE CEUX QUI ONT PEUR',
