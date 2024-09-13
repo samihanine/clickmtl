@@ -45,6 +45,7 @@ const artists: Artist[] = [
     bgCover: '',
     roles: ['Photographe'],
     slug: 'nicola-bevacqua',
+    instagramUrl: 'https://www.instagram.com/urban.originals/',
   },
   {
     name: 'Lucas Macé',
@@ -54,6 +55,7 @@ const artists: Artist[] = [
     bgCover: '/artists/lucas-mace-cover.jpg',
     roles: ['Photographe', 'Vidéaste'],
     slug: 'lucas-mace',
+    instagramUrl: 'https://www.instagram.com/omfgxz_/',
   },
   {
     name: 'Khoa',
@@ -63,6 +65,7 @@ const artists: Artist[] = [
     bgCover: '',
     roles: ['Réalisateur', 'Vidéaste'],
     slug: 'khoa',
+    instagramUrl: 'https://www.instagram.com/khoat.mp4/',
   },
   {
     name: 'Hugo Cardinal',
@@ -72,6 +75,7 @@ const artists: Artist[] = [
     bgCover: '/artists/hugo-cardinal-cover.jpg',
     roles: ['Photographe'],
     slug: 'hugo-cardinal',
+    instagramUrl: 'https://www.instagram.com/hugobcardinal/',
   },
   {
     name: 'Édouard',
@@ -90,6 +94,7 @@ const artists: Artist[] = [
     bgCover: '',
     roles: ['Photographe'],
     slug: 'florian',
+    instagramUrl: 'https://www.instagram.com/mlt.prod/',
   },
 ];
 

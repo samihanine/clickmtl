@@ -28,7 +28,7 @@ const ProjectPage = async (params: {
         <Link href={`/projects?page=${prev}`}>
           <p
             className={
-              'text-base hover:underline sm:text-xl ' +
+              'text-base hover:underline sm:text-lg ' +
               (page === prev ? 'opacity-30' : '')
             }
           >
@@ -41,7 +41,7 @@ const ProjectPage = async (params: {
         <Link href={`/projects?page=${next}`}>
           <p
             className={
-              'text-base hover:underline sm:text-xl ' +
+              'text-base hover:underline sm:text-lg ' +
               (page === next ? 'opacity-30' : '')
             }
           >
