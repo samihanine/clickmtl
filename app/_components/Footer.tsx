@@ -27,6 +27,19 @@ const Footer = () => {
           <FooterIcons />
         </div>
       </div>
+
+      <a
+        href='https://www.otopio.net/en'
+        className='sticker'
+        rel='noopener'
+        target='_blank'
+      >
+        <img
+          src='https://www.otopio.net/_next/image?url=%2Fimages%2Flogo-icon.png&w=3840&q=75'
+          alt='Logo Otopio'
+        />
+        <p>Website designed by Otopio Web Agency</p>
+      </a>
     </div>
   );
 };

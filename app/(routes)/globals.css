@@ -54,3 +54,32 @@
     @apply border border-white bg-white px-[16px] py-[8px] text-black transition hover:bg-transparent hover:text-white;
   }
 }
+
+.sticker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: fit-content;
+}
+
+.sticker:hover {
+  background-color: #e3e3e3;
+}
+
+.sticker img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.sticker p {
+  font-size: 14px;
+  font-weight: bold;
+}
