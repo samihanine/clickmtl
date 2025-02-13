@@ -55,7 +55,7 @@ const ProjectLanding = async ({ project }: { project: Project }) => {
           </div>{' '}
         </div>
         <div className='flex h-full w-full flex-col items-center justify-center whitespace-pre bg-black py-10 text-white md:w-1/3'>
-          <p className='font-bold'>CREDITS</p>
+          <p className='font-bold'>CRÉDITS</p>
           <p className='text-center'>
             {project.credits ? (
               project.credits

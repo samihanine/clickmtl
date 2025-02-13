@@ -36,18 +36,14 @@ const AboutPage = () => {
           <div className='flex items-center justify-center gap-[--gap]'>
             <div className='md:w-1/2'>
               <p className='text-center'>
-                Click a vu le jour à partir d&apos;une passion débordante et
-                d&apos;un désir profond de création. Les cofondateurs, Matias et
-                Louis, ont d&apos;abord exploré le monde à travers
-                l&apos;objectif de la photographie. Leur esprit entrepreneurial
-                ne tarda pas à se manifester, les conduisant à établir leur
-                propre agence de création en 2022. Aujourd&apos;hui, Click se
-                distingue fièrement par son réseau d&apos;artistes en
-                perpétuelle innovation. Plus qu&apos;une simple agence au
-                service des entreprises, Click se positionne comme une
-                communauté inclusive, ouvrant ses portes aux jeunes talents
-                passionnés désireux de créer et d&apos;acquérir une expérience
-                professionnelle significative.
+                {
+                  "Née d'une passion pour la création et d'un profond désir de raconter des histoires, Click a vu le jour en 2022 sous l'impulsion de ses cofondateurs, Matias et Louis, qui explorent le monde de la création depuis 2017."
+                }
+                <br />
+                <br />
+                {
+                  "Click est une maison de création publicitaire qui donne vie à chaque projet en le transformant en scène cinématographique. Réunissant des artistes visionnaires, nous produisons des visuels audacieux qui repoussent les limites du possible. Plus qu'une agence, Click est une communauté dynamique et inclusive, ouverte aux talents passionnés et déterminés à redéfinir les codes de la publicité."
+                }
               </p>
             </div>
           </div>

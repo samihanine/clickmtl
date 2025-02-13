@@ -29,6 +29,141 @@ export type Project = z.infer<typeof projectSchema>;
 
 const projects: Project[] = [
   {
+    type: 'image',
+    title: 'Appel du vide',
+    projectCover: '/projects/appel-du-vide/appel-du-vide-background.jpg',
+    description:
+      'Écrit et réalisé par Matias Renaud, L’Appel du Vide est un court-métrage qui explore l’étrangeté et l’attrait de ce phénomène intrigant. Nous avons eu la chance de produire ce projet indépendant durant l’été 2024 et avons pris un immense plaisir à travailler aux côtés d’une équipe de production aussi talentueuse.',
+    initiators: [
+      {
+        name: 'Matias Renaud',
+        slug: 'matias-renaud',
+      },
+      {
+        name: 'Luca Renaud',
+        slug: 'luca-renaud',
+      },
+      {
+        name: 'Julien Prefontaine',
+        slug: 'julien-prefontaine',
+      },
+      {
+        name: 'Jay Lavallée',
+        slug: 'jay-lavallée',
+      },
+      {
+        name: 'Emma Rose Berrou',
+        slug: 'emma-rose-berrou',
+      },
+      {
+        name: 'Mateo Reglat',
+        slug: 'mateo-reglat',
+      },
+      {
+        name: 'Bryen Akueson',
+        slug: 'bryen-akueson',
+      },
+      {
+        name: 'Louis Grégoire',
+        slug: 'louis-gregoire',
+      },
+    ],
+    slug: 'appel-du-vide',
+    medias: Array.from({ length: 6 }).map((_, i) => ({
+      filename: `appel-du-vide-${i + 1}`,
+      src: `/projects/appel-du-vide/appel-du-vide-${i + 1}.png`,
+    })),
+  },
+  {
+    type: 'image',
+    title: 'Semaine de la mode',
+    projectCover:
+      '/projects/semaine-de-la-mode/semaine-de-la-mode-background.jpg',
+    description:
+      "La Semaine de la mode à Montréal est un événement annuel qui nous tient particulièrement à cœur chez Click. Depuis maintenant deux ans, nous avons l'opportunité de réaliser leur contenu. En 2024, nous avons pris en charge l’ensemble de la création, couvrant plus de 40 événements en photo et en vidéo. Nous avons également produit un after-movie rassemblant les moments forts de la semaine dans un court métrage captivant. Ce projet n’aurait pas été possible sans notre formidable équipe et la précieuse collaboration avec l’équipe de Mmode.",
+    initiators: [
+      {
+        name: 'Matias Renaud',
+        slug: 'matias-renaud',
+      },
+      {
+        name: 'Louis Gregoire',
+        slug: 'louis-gregoire',
+      },
+      {
+        name: 'Hugo Cardinal',
+        slug: 'hugo-cardinal',
+      },
+      {
+        name: 'Lucas Macé',
+        slug: 'lucas-mace',
+      },
+      {
+        name: 'Hugo Cardinal',
+        slug: 'hugo-cardinal',
+      },
+      {
+        name: 'Nicolas Bevacqua',
+        slug: 'nicolas-bevacqua',
+      },
+    ],
+    slug: 'semaine-de-la-mode',
+    videoLink: 'https://www.youtube.com/watch?v=hwQC9RYLUbg',
+    medias: Array.from({ length: 11 }).map((_, i) => ({
+      filename: `semaine-de-la-mode-${i + 1}`,
+      src: `/projects/semaine-de-la-mode/semaine-de-la-mode-${i + 1}.jpg`,
+    })),
+  },
+  {
+    type: 'image',
+    title: 'Vérité Augmentée',
+    description:
+      'Lors de l’hiver 2024, Click a eu l’opportunité de participer à son tout premier court-métrage dans le cadre d’un projet étudiant. Co-scénarisé par Édouard Lamarre, Matias et Julien, Vérité Augmentée raconte l’histoire d’un jeune homme qui se procure une paire de lunettes lui révélant les vérités cachées dans les pensées de son entourage, jusqu’à découvrir une vérité tragique. Le film a été sélectionné dans trois festivals, soit au Festival du Nouveau Cinéma, à Los Angeles au Shorted Films et à l’Intercollégial à Montréal. Nous avons eu l’immense honneur de commanditer ce beau projet étudiant, et nous allons produire davantage de films dans le futur.',
+    initiators: [
+      {
+        name: 'Matias Renaud',
+        slug: 'matias-renaud',
+      },
+      {
+        name: 'Julien Prefontaine',
+        slug: 'julien-prefontaine',
+      },
+      {
+        name: 'Édouard Lamarre',
+        slug: 'edouard-lamarre',
+      },
+    ],
+    slug: 'verite-augmentee',
+    medias: [
+      {
+        filename: 'verite-augmentee-1',
+        src: 'https://drive.google.com/file/d/19w0MQOLlvsc-0T43RzoT4QWerV1CVD9Y/preview',
+      },
+      {
+        filename: 'verite-augmentee-2',
+        src: 'https://drive.google.com/file/d/1X18NZ1u4XEBD5_lG9IND9T-_6hlGi5ra/preview',
+      },
+      {
+        filename: 'verite-augmentee-3',
+        src: 'https://drive.google.com/file/d/19lZFohsHEx-2Z0xFSUvEUe7MKejyl0MT/preview',
+      },
+      {
+        filename: 'verite-augmentee-4',
+        src: 'https://drive.google.com/file/d/1skaUCZae3Yq-MZi1ADfgRWnax10clCeo/preview',
+      },
+      {
+        filename: 'verite-augmentee-5',
+        src: 'https://drive.google.com/file/d/1cPsaLX3y2PB5NH8hrAScoi9alx4xMkUo/preview',
+      },
+      {
+        filename: 'verite-augmentee-6',
+        src: 'https://drive.google.com/file/d/1e9dqcUFE5unZkGWIJnSe7tXousMEQK4j/preview',
+      },
+    ],
+    projectCover: '/projects/verite-augmentee/verite-augmentee-background.png',
+    videoLink: 'https://www.youtube.com/watch?v=Vufe_jT6EDo&t=218s',
+  },
+  {
     type: 'video',
     title: 'Escape',
     projectCover: '/projects/escape/escape-background.jpg',
@@ -118,17 +253,28 @@ const projects: Project[] = [
       },
     ],
     slug: 'moog-audio',
-    medias: Array.from({ length: 7 }).map((_, i) => ({
-      filename: `moog-audio-${i + 1}`,
-      src:
-        i === 5
-          ? `/projects/moog-audio/moog-audio-${i + 1}.gif`
-          : `/projects/moog-audio/moog-audio-${i + 1}.jpg`,
-    })),
+    medias: [
+      ...Array.from({ length: 7 }).map((_, i) => ({
+        filename: `moog-audio-${i + 1}`,
+        src:
+          i === 5
+            ? `/projects/moog-audio/moog-audio-${i + 1}.gif`
+            : `/projects/moog-audio/moog-audio-${i + 1}.jpg`,
+      })),
+
+      {
+        filename: 'moog-audio-8',
+        src: 'https://drive.google.com/file/d/1SCuFPU3oLDeTGgrXtrmyh_BfpOegHPWw/preview',
+      },
+      {
+        filename: 'moog-audio-9',
+        src: 'https://drive.google.com/file/d/1LtW5IWpA9Zs87SByGuX-fuGyEjLolRsq/preview',
+      },
+    ],
   },
   {
     type: 'image',
-    title: 'Constant Elevation',
+    title: 'Off The Hook',
     projectCover:
       '/projects/constant-elevation/constant-elevation-background.jpg',
     description:
@@ -247,10 +393,6 @@ const projects: Project[] = [
         slug: 'louis-gregoire',
       },
       {
-        name: 'Florian',
-        slug: 'florian',
-      },
-      {
         name: 'Khoa',
         slug: 'khoa',
       },
@@ -287,16 +429,12 @@ const projects: Project[] = [
         slug: 'louis-gregoire',
       },
       {
-        name: 'Édouard',
-        slug: 'edouard',
+        name: 'Lucas Macé',
+        slug: 'lucas-mace',
       },
       {
-        name: 'Khoa',
-        slug: 'khoa',
-      },
-      {
-        name: 'Daniel',
-        slug: '',
+        name: 'Matias Renaud',
+        slug: 'matias-renaud',
       },
     ],
     slug: 'spicebros',
@@ -484,6 +622,10 @@ const projects: Project[] = [
         name: 'Matias Renaud',
         slug: 'matias-renaud',
       },
+      {
+        name: 'Emma Rose Berrou',
+        slug: 'emma-rose-berrou',
+      },
     ],
     slug: 'enclosed',
     medias: Array.from({ length: 3 }).map((_, i) => ({
@@ -584,6 +726,7 @@ const projects: Project[] = [
       src: `/projects/mariage-claude/mariage-claude-${i + 1}.jpg`,
     })),
   },
+  /*
   {
     type: 'image',
     title: 'Volvo s70 1999',
@@ -623,6 +766,58 @@ const projects: Project[] = [
       filename: `car-crash-${i + 1}`,
       src: `/projects/car-crash/car-crash-${i + 1}.jpg`,
     })),
+  },
+  */
+  {
+    type: 'image',
+    title: 'Espace Cab déco',
+    projectCover: '/projects/espace-cab-deco/espace-cab-deco-background.jpg',
+    description:
+      'Nous avons eu l’occasion de capturer plusieurs projets de design intérieur réalisés par Espace Cab Déco à Montréal, mettant en valeur leur mobilier et leurs agencements. Et ce n’est que le début, car de nouvelles réalisations sont déjà en cours!',
+    initiators: [
+      {
+        name: 'Matias Renaud',
+        slug: 'matias-renaud',
+      },
+    ],
+    slug: 'espace-cab-deco',
+    medias: Array.from({ length: 14 }).map((_, i) => ({
+      filename: `espace-cab-deco-${i + 1}`,
+      src: `/projects/espace-cab-deco/espace-cab-deco-${i + 1}.jpg`,
+    })),
+  },
+
+  {
+    type: 'image',
+    title: 'Nasdrow',
+    projectCover: '/projects/nasdrow/nasdrow-background.png',
+    description:
+      'Pour Nasdrow, nous produisons une série de courtes vidéos visant à accroître la notoriété de cette nouvelle marque locale et à lui offrir une image à la hauteur de ses ambitions.',
+    initiators: [
+      {
+        name: 'Matias Renaud',
+        slug: 'matias-renaud',
+      },
+      {
+        name: 'Louis Grégoire',
+        slug: 'louis-gregoire',
+      },
+    ],
+    slug: 'nasdrow',
+    medias: [
+      {
+        filename: 'nasdrow-1',
+        src: 'https://www.youtube.com/watch?v=UwO5dW7J8Jo',
+      },
+      {
+        filename: 'nasdrow-2',
+        src: 'https://youtube.com/watch?v=TnabrH_zUc0',
+      },
+      {
+        filename: 'nasdrow-3',
+        src: 'https://www.youtube.com/watch?v=MAHWJsv7W7A',
+      },
+    ],
   },
 ];
 

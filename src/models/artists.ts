@@ -87,14 +87,13 @@ const artists: Artist[] = [
     slug: 'edouard',
   },
   {
-    name: 'Florian',
-    bio: '',
+    name: 'Lucas Macé',
+    bio: "En tant que photographe et vidéaste spécialisé dans l’événementiel, il s'immerge dans chaque évènement pour capturer l'essence du sujet, mettant toute sa passion pour la musique dans chaque cliché. Son objectif est de susciter des émotions et de l'engagement à travers son art tout en apportant sa touche personnelle. Vidéaste, scénariste et monteur chez Click, il fusionne les éléments avec dynamisme et créativité, créant des histoires visuelles qui font vibrer.",
     email: '',
-    portrait: '/artists/florian.jpg',
-    bgCover: '',
-    roles: ['Photographe'],
-    slug: 'florian',
-    instagramUrl: 'https://www.instagram.com/mlt.prod/',
+    portrait: '/artists/lucas-mace.jpg',
+    bgCover: '/artists/lucas-mace-cover.jpg',
+    roles: ['Photographe', 'Vidéaste'],
+    slug: 'lucas-mace',
   },
 ];
 

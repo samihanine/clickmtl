@@ -8,7 +8,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='flex justify-between bg-black px-10 py-[--navh]'>
+    <div className='flex flex-col items-center justify-between gap-16 bg-black px-10 py-[--navh] md:flex-row'>
       <div className='flex flex-col items-center justify-center gap-[--gap] md:items-start'>
         <Link className='w-[20%]' href={'/'}>
           <Image
