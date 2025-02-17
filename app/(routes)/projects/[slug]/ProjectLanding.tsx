@@ -56,13 +56,18 @@ const ProjectLanding = async ({ project }: { project: Project }) => {
         </div>
         <div className='flex h-full w-full flex-col items-center justify-center whitespace-pre bg-black py-10 text-white md:w-1/3'>
           <p className='font-bold'>CRÉDITS</p>
-          <p className='text-center'>
+          <p className='flex flex-wrap items-center justify-center gap-2 p-5 text-center'>
             {project.credits ? (
               project.credits
             ) : (
               <>
-                {project.initiators.map((initiator) => (
-                  <p key={initiator.slug}>{initiator.name}</p>
+                {project.initiators.map((initiator, index) => (
+                  <p key={initiator.slug}>
+                    {initiator.name}
+                    {index !== project.initiators.length - 1 && (
+                      <span className='mx-[0.25rem]'>,</span>
+                    )}
+                  </p>
                 ))}
               </>
             )}

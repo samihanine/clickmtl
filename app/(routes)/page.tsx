@@ -63,7 +63,9 @@ const Home = async () => {
       <section className='flex flex-col items-center justify-between bg-[--primary-color] p-[--px] md:h-screen md:flex-row'>
         <div className='mt-5 flex flex-col-reverse gap-[--gap] md:mt-0 md:w-1/2 md:flex-col'>
           <p className='text-lg uppercase md:text-xl'>
-            {home.aboutSection.text}
+            {`Née d'une passion pour la création et d'un profond désir de raconter des histoires, Click a vu le jour en 2022 sous l'impulsion de ses cofondateurs, Matias et Louis, qui explorent le monde de la création depuis 2017.`}
+            <br /> <br />
+            {`Click est une maison de création publicitaire qui donne vie à chaque projet en le transformant en scène cinématographique. Réunissant des artistes visionnaires, nous produisons des visuels audacieux qui repoussent les limites du possible. Plus qu'une agence, Click est une communauté dynamique et inclusive, ouverte aux talents passionnés et déterminés à redéfinir les codes de la publicité.`}
           </p>
           <SectionLink href={'/about'}>À PROPOS</SectionLink>
         </div>

@@ -48,16 +48,6 @@ const artists: Artist[] = [
     instagramUrl: 'https://www.instagram.com/urban.originals/',
   },
   {
-    name: 'Lucas Macé',
-    bio: '',
-    email: '',
-    portrait: '/artists/lucas-mace.jpg',
-    bgCover: '/artists/lucas-mace-cover.jpg',
-    roles: ['Photographe', 'Vidéaste'],
-    slug: 'lucas-mace',
-    instagramUrl: 'https://www.instagram.com/omfgxz_/',
-  },
-  {
     name: 'Khoa',
     bio: '',
     email: '',

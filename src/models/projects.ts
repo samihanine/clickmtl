@@ -69,10 +69,16 @@ const projects: Project[] = [
       },
     ],
     slug: 'appel-du-vide',
-    medias: Array.from({ length: 6 }).map((_, i) => ({
-      filename: `appel-du-vide-${i + 1}`,
-      src: `/projects/appel-du-vide/appel-du-vide-${i + 1}.png`,
-    })),
+    medias: [
+      ...Array.from({ length: 5 }).map((_, i) => ({
+        filename: `appel-du-vide-${i + 1}`,
+        src: `/projects/appel-du-vide/appel-du-vide-${i + 1}.png`,
+      })),
+      {
+        filename: 'appel-du-vide-5',
+        src: '/projects/appel-du-vide/appel-du-vide-6.jpg',
+      },
+    ],
   },
   {
     type: 'image',
